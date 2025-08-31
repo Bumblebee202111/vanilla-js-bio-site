@@ -65,3 +65,16 @@ footer {
     margin-top: 40px;
     color: #666;
 }
+
+body.dark-mode {
+    background: #333;
+    color: #f4f4f4;
+}
+
+body.dark-mode section {
+    background: #444;
+}
+
+body.dark-mode header {
+    background: #222;
+}
