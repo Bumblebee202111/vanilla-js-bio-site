@@ -59,7 +59,7 @@ h2 {
     border-radius: 50%;
 }
 
-#contact-form{
+#contact-form {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -86,7 +86,7 @@ h2 {
     font-size: 1rem;
 }
 
-#thank-you-message.hidden{
+#thank-you-message.hidden {
     display: none;
 }
 

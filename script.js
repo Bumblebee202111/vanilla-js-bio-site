@@ -8,11 +8,11 @@ themeToggleButton.addEventListener('click', () => {
 const contactForm = document.querySelector('#contact-form');
 const thankYouMessage = document.querySelector('#thank-you-message');
 
-if (contactForm){
+if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
 
-        contactForm.style.display='none';
+        contactForm.style.display = 'none';
 
         thankYouMessage.classList.remove('hidden');
     })
